@@ -1,3 +1,31 @@
+swift (1.4.3-1) lucid; urgency=low
+
+    * [Made from http://gitbhub.com/openstack/swift commit ba57e6ec04d26e83fc83732f63817ebec89a4368]
+
+    * Additional quarantine catching code.
+
+    * Added client_ip to all proxy log lines not otherwise containing it.
+
+    * Content-Type is now application/xml for "GET services/bucket" swift3
+      middleware requests.
+
+    * Alpha release of the Swift Recon Experiment
+
+    * Fix last modified date for swift3 middleware.
+
+    * Fix to clear account/container metadata on account/container deletion.
+
+    * Fix for corner case regarding X-Newest.
+
+    * Fix for object auditor running out of file descriptors.
+
+    * Fix to return all proper headers for manifest objects.
+
+    * Fix to the swift tool to strip any leading slashes on file names when
+      uploading.
+
+ -- John Dickinson <me@not.mn>  Mon, 12 Sep 2011 14:58:30 +0000
+
 swift (1.4.2rax2-1) lucid; urgency=low
 
   * [Made from lp:swift revno 344]
