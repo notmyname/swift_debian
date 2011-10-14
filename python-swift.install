@@ -1,3 +1,4 @@
 usr/lib/python*/dist-packages/*
 usr/bin/swift-init
 usr/bin/swift-drive-audit
+usr/bin/swift-recon-cron

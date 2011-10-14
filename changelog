@@ -1,3 +1,9 @@
+swift (1.4.3-2) lucid; urgency=low
+
+    * Include swift-recon and swift-recon-cron in packages
+
+ -- Florian Hines <florian.hines@gmail.com>  Fri, 14 Oct 2011 16:02:41 +0000
+
 swift (1.4.3-1) lucid; urgency=low
 
     * [Made from http://gitbhub.com/openstack/swift commit ba57e6ec04d26e83fc83732f63817ebec89a4368]

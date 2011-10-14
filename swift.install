@@ -6,3 +6,4 @@ usr/bin/swift-stats-report
 usr/bin/swift
 usr/bin/swift-dispersion-populate
 usr/bin/swift-dispersion-report
+usr/bin/swift-recon
