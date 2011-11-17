@@ -1,3 +1,9 @@
+swift (1.4.4-1) lucid; urgency=low
+
+    * Adding manpages and fix permissions on auto-created directories.
+
+ -- dfg <david.goetz>  Thu, 17 Nov 2011 15:17:50 -0800
+
 swift (1.4.4) lucid; urgency=low
 
     * [Made from http://gitbhub.com/openstack/swift commit cedf65354985337978461465bb821ebbb62439d6]

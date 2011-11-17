@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+#DEBHELPER#
+
+if [ -d /var/log/swift/stats ]; then
+    chown swift:swift /var/log/swift/stats
+fi
+
