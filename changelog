@@ -1,3 +1,47 @@
+swift (1.4.4) lucid; urgency=low
+
+    * [Made from http://gitbhub.com/openstack/swift commit cedf65354985337978461465bb821ebbb62439d6]
+
+    * Add sockstat info to recon.
+
+    * Fixed leak from SegmentedIterable.
+
+    * Fixed bufferedhttp to deref socks and fps.
+
+    * Add support for OS Auth API version 2.
+
+    * Make Eventlet's WSGI server log differently.
+
+    * Updated TimeoutError and except Exception refs.
+
+    * Fixed time-sensitive tests.
+
+    * Fixed object manifest etags.
+
+    * Fixes for swift-recon disk usage distribution graph.
+
+    * Adding new manpages for configuration files.
+
+    * Change bzr to swift in getting_started doc.
+
+    * Fixes the HTTPConflict import.
+
+    * Expiring Objects Support.
+
+    * Fixing bug with x-trans-id.
+
+    * Requote the source when doing a COPY.
+
+    * Add documentation for Swift Recon.
+
+    * Make drive audit regexes detect 4-letter drives.
+
+    * Adding what acc/cont/obj into the ratelimit error messages.
+
+    * Query only specific zone via swift-recon.
+
+ -- dfg <david.goetz@rackspace.com>  Wed, 16 Nov 2011 15:17:09 -0800
+
 swift (1.4.3-3) lucid; urgency=low
 
     * Fix packages. Use correct release.
