@@ -1,0 +1,3 @@
+/var/log/swift
+/var/log/swift/hourly
+/var/run/swift
