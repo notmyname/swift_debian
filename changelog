@@ -1,3 +1,11 @@
+swift (1.4.4-3) lucid; urgency=low
+
+    * [Made from http://gitbhub.com/openstack/swift commit f643a58d32b45068ee106444eae90ba0e0d2280c]
+    
+    * Fixes to prevent socket hoarding
+
+ -- dfg <david.goetz@rackspace.com>  Tue, 22 Nov 2011 15:18:37 -0800
+
 swift (1.4.4-2) lucid; urgency=low
 
     * manpages fix 
