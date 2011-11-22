@@ -1,8 +1,14 @@
+swift (1.4.4-2) lucid; urgency=low
+
+    * manpages fix 
+
+ -- dfg <david.goetz@rackspace.com>  Fri, 18 Nov 2011 08:13:16 -0800
+
 swift (1.4.4-1) lucid; urgency=low
 
     * Adding manpages and fix permissions on auto-created directories.
 
- -- dfg <david.goetz>  Thu, 17 Nov 2011 15:17:50 -0800
+ -- dfg <david.goetz@rackspace.com>  Thu, 17 Nov 2011 15:17:50 -0800
 
 swift (1.4.4) lucid; urgency=low
 
