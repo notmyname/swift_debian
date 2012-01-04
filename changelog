@@ -1,3 +1,9 @@
+swift (1.4.5-2) lucid; urgency=low
+
+  * Packaging fix because of a already locally deployed 1.4.5-1.
+
+ -- Gregory Holt <gholt@rackspace.com>  Wed, 04 Jan 2012 21:39:03 +0000
+
 swift (1.4.5-1) lucid; urgency=low
 
   * New swift-orphans and swift-oldies command line tools to detect
@@ -26,7 +32,7 @@ swift (1.4.5-1) lucid; urgency=low
 
   * PEP8 Updates.
 
- -- Gregory Holt <gholt@ubuntu.localdomain>  Wed, 04 Jan 2012 20:12:13 +0000
+ -- Gregory Holt <gholt@rackspace.com>  Wed, 04 Jan 2012 20:12:13 +0000
 
 swift (1.4.4-3) lucid; urgency=low
 
