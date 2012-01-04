@@ -1,3 +1,13 @@
+swift (1.4.5-3) lucid; urgency=low
+
+  * Added swift-orphans.
+
+  * Added swift-oldies.
+
+  * Added object-expirer.conf-sample.
+
+ -- Gregory Holt <gholt@rackspace.com>  Wed, 04 Jan 2012 21:53:57 +0000
+
 swift (1.4.5-2) lucid; urgency=low
 
   * Packaging fix because of a already locally deployed 1.4.5-1.
