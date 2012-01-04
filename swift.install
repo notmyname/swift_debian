@@ -7,3 +7,4 @@ usr/bin/swift
 usr/bin/swift-dispersion-populate
 usr/bin/swift-dispersion-report
 usr/bin/swift-recon
+usr/bin/swift-object-expirer
