@@ -1,3 +1,49 @@
+swift (1.4.5-3) lucid; urgency=low
+
+  * Added swift-orphans.
+
+  * Added swift-oldies.
+
+  * Added object-expirer.conf-sample.
+
+ -- Gregory Holt <gholt@rackspace.com>  Wed, 04 Jan 2012 21:53:57 +0000
+
+swift (1.4.5-2) lucid; urgency=low
+
+  * Packaging fix because of a already locally deployed 1.4.5-1.
+
+ -- Gregory Holt <gholt@rackspace.com>  Wed, 04 Jan 2012 21:39:03 +0000
+
+swift (1.4.5-1) lucid; urgency=low
+
+  * New swift-orphans and swift-oldies command line tools to detect
+    orphaned Swift processes and long running processes.
+
+  * Command line tool "swift" now supports marker queries.
+
+  * StaticWeb middleware improved to save an extra request when
+    possible.
+
+  * Updated swift-init to support swift-object-expirer.
+
+  * Fixed object replicator timeout handling [bug 814263].
+
+  * Fixed accept header 503 vs. 400 [bug 891247].
+
+  * More exception handling for auditors.
+
+  * Doc updates for PPA [bug 905608].
+
+  * Doc updates to explain replication more clearly [bug 906976].
+
+  * Updated SAIO instructions to no longer mention ~/swift/trunk.
+
+  * Fixed docstrings in the ring code.
+
+  * PEP8 Updates.
+
+ -- Gregory Holt <gholt@rackspace.com>  Wed, 04 Jan 2012 20:12:13 +0000
+
 swift (1.4.4-3) lucid; urgency=low
 
     * [Made from http://gitbhub.com/openstack/swift commit f643a58d32b45068ee106444eae90ba0e0d2280c]
