@@ -1,3 +1,9 @@
+swift (1.4.5-4) lucid; urgency=low
+
+  * Fixed packaging to reduce size of the repo
+
+ -- John Dickinson <me@not.mn>  Mon, 09 Jan 2012 16:58:43 +0000
+
 swift (1.4.5-3) lucid; urgency=low
 
   * Added swift-orphans.
@@ -43,6 +49,12 @@ swift (1.4.5-1) lucid; urgency=low
   * PEP8 Updates.
 
  -- Gregory Holt <gholt@rackspace.com>  Wed, 04 Jan 2012 20:12:13 +0000
+
+swift (1.4.4-4) lucid; urgency=low
+
+  * Fix to packaging to reduce size of repo
+
+ -- John Dickinson <me@not.mn>  Mon, 09 Jan 2012 16:08:49 +0000
 
 swift (1.4.4-3) lucid; urgency=low
 
@@ -108,6 +120,12 @@ swift (1.4.4) lucid; urgency=low
 
  -- dfg <david.goetz@rackspace.com>  Wed, 16 Nov 2011 15:17:09 -0800
 
+swift (1.4.3-4) lucid; urgency=low
+
+  * Fix packaging to reduce size of the repo
+
+ -- John Dickinson <me@not.mn>  Mon, 09 Jan 2012 16:01:21 +0000
+
 swift (1.4.3-3) lucid; urgency=low
 
     * Fix packages. Use correct release.
@@ -166,6 +184,12 @@ swift (1.4.2rax1-1) lucid; urgency=low
 
  -- Gregory Holt <gholt@rackspace.com>  Wed, 10 Aug 2011 13:03:57 +0000
 
+swift (1.4.2-2) lucid; urgency=low
+
+  * Fixing packaging to reduce the size of the repo
+
+ -- John Dickinson <me@not.mn>  Mon, 09 Jan 2012 18:26:28 +0000
+
 swift (1.4.2-1) lucid; urgency=low
 
     * Container Synchronization Feature - First Edition
@@ -175,6 +199,12 @@ swift (1.4.2-1) lucid; urgency=low
     * Changing ratelimiting so that it only limits PUTs/DELETEs.
 
  -- Greg <gholt@rackspace.com>  Thu, 27 Jul 2011 14:36:00 +0000
+
+swift (1.4.1-4) lucid; urgency=low
+
+  * Removed all VCS info from the source to reduce the size of the repo
+
+ -- John Dickinson <me@not.mn>  Fri, 06 Jan 2012 21:34:10 +0000
 
 swift (1.4.1-3) lucid; urgency=low
 
@@ -226,6 +256,12 @@ swift (1.4.1-1) lucid; urgency=low
     account_autocreate proxy config parameter is set to true.
 
  -- dfg <david.goetz@rackspace.com>  Tue, 14 Jun 2011 12:16:55 -0700
+
+swift (1.4.0-3) lucid; urgency=low
+
+  * removed VCS info from source tarfiles to reduce the size of the repo
+
+ -- John Dickinson <me@not.mn>  Fri, 06 Jan 2012 21:08:55 +0000
 
 swift (1.4.0-2) lucid; urgency=low
 
