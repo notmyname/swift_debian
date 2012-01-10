@@ -1,0 +1,178 @@
+Package: python-greenlet-doc
+Source: python-greenlet
+Version: 0.3.1-1ubuntu1build1
+Architecture: all
+Maintainer: Örjan Persson <orange@fobie.net>
+Installed-Size: 12
+Suggests: python-greenlet, python-greenlet-dev
+Homepage: http://pypi.python.org/pypi/greenlet
+Priority: extra
+Section: doc
+Filename: pool/main/p/python-greenlet/python-greenlet-doc_0.3.1-1ubuntu1build1_all.deb
+Size: 9624
+SHA256: a1deda6c133433f2242e1c59fbc50e6ca8fd536b85c837eea6ae545a0aed148e
+SHA1: 54c9b3d5e215d8c78abd7bc9851314b182cdaed1
+MD5sum: 94835eb06e4750e4e0dad9d957a7132a
+Description: Lightweight in-process concurrent programming development files
+ The greenlet package is a spin-off of Stackless, a version of CPython that
+ supports micro-threads called "tasklets". Tasklets run pseudo-concurrently
+ (typically in a single or a few OS-level threads) and are synchronized with
+ data exchanges on "channels".
+ .
+ greenlet is the standalone package derived from the py lib, and is used by
+ several non-blocking IO packages as a more flexible alternative to Python's
+ built in coroutines.
+ .
+ This is the documentation for greenlet.
+
+Package: python-swift
+Source: swift
+Version: 1.4.3-4
+Architecture: all
+Maintainer: Michael Barton <michael.barton@rackspace.com>
+Installed-Size: 2032
+Depends: python (>= 2.6), python-support (>= 0.90.0), python-openssl, python-setuptools, python-pastedeploy, python-webob (>= 0.9.7.1~hg20100111-1~racklabs1), python-simplejson, python-xattr, python-netifaces, python-greenlet (>= 0.3.1), python-eventlet (>= 0.9.8)
+Provides: python2.6-swift
+Homepage: http://launchpad.net/swift
+Priority: optional
+Section: python
+Filename: pool/main/s/swift/python-swift_1.4.3-4_all.deb
+Size: 266392
+SHA256: 9b053bbaf386bd7b2a489c180fc834d088989900084f4c4c57c225ae411821a1
+SHA1: 7f5c54e897dbbde74e29bed9ba4ada355f71a3df
+MD5sum: 486a3599d165c051774a5a58e1e6a9fb
+Description: A distributed virtual object store (python libraries)
+ Swift is a distributed virtual object store.
+ .
+ This package provides the python libraries that actually implement
+ everything.
+
+Package: python-webob
+Version: 1.0.8-1
+Architecture: all
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 593
+Depends: python
+Suggests: libjs-jquery
+Homepage: http://pythonpaste.org/webob/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-webob/python-webob_1.0.8-1_all.deb
+Size: 281238
+SHA256: 7201fa1cd27673ceb17be87b8b15429bf71207a6a36f8ed970b705925c560e8c
+SHA1: e2e21b73fb841c19b7a8de50ff5eb59a22b8b220
+MD5sum: 84bd02927af48068a7f3b260e3d62e39
+Description: Python module providing WSGI request and response objects
+ WebOb provides wrappers around the WSGI request environment, and an object to
+ help create WSGI responses.
+ .
+ The objects map much of the specified behavior of HTTP, including header
+ parsing and accessors for other standard parts of the environment.
+
+Package: swift
+Version: 1.4.3-4
+Architecture: all
+Maintainer: Michael Barton <michael.barton@rackspace.com>
+Installed-Size: 256
+Depends: python-swift (= 1.4.3-4), python (>= 2.6)
+Homepage: http://launchpad.net/swift
+Priority: optional
+Section: net
+Filename: pool/main/s/swift/swift_1.4.3-4_all.deb
+Size: 42274
+SHA256: 143db056a3c106210cf4a77086d89e37a2513663fe5baa3db769ce77676b0961
+SHA1: bac13bc2fcfd9b5ee5f46c95f49994f9a36a4004
+MD5sum: e52175ad079d91bbf65c91d4e633b767
+Description: A distributed virtual object store (common files)
+ Swift is a distributed virtual object store.
+
+Package: swift-account
+Source: swift
+Version: 1.4.3-4
+Architecture: all
+Maintainer: Michael Barton <michael.barton@rackspace.com>
+Installed-Size: 100
+Depends: python-swift (= 1.4.3-4), rsync, python (>= 2.6)
+Homepage: http://launchpad.net/swift
+Priority: optional
+Section: net
+Filename: pool/main/s/swift/swift-account_1.4.3-4_all.deb
+Size: 10872
+SHA256: 51d915a2bbf0ff2f2fad6728397bdbd96c46235ec540ee1eb8362bac52b727c4
+SHA1: eb0a108d375bab6ccde2712e0a26c9e5d5a99843
+MD5sum: 36400e7513444b8d5c0c6cba7650e0a1
+Description: The swift account server
+ The swift account server.
+
+Package: swift-container
+Source: swift
+Version: 1.4.3-4
+Architecture: all
+Maintainer: Michael Barton <michael.barton@rackspace.com>
+Installed-Size: 104
+Depends: python-swift (= 1.4.3-4), rsync, python (>= 2.6)
+Homepage: http://launchpad.net/swift
+Priority: optional
+Section: net
+Filename: pool/main/s/swift/swift-container_1.4.3-4_all.deb
+Size: 11080
+SHA256: 8356bb50d17a89b1e93cf2baed6dce481696318092c8a3103e3b43fb7557a249
+SHA1: 62f515b6cb86acbd079f070ee02a861759dc59af
+MD5sum: dbb039206ee98ae0081709e0774bc0e3
+Description: The swift container server
+ The swift container server.
+
+Package: swift-doc
+Source: swift
+Version: 1.4.3-4
+Architecture: all
+Maintainer: Michael Barton <michael.barton@rackspace.com>
+Installed-Size: 1148
+Depends: libjs-jquery
+Homepage: http://launchpad.net/swift
+Priority: optional
+Section: doc
+Filename: pool/main/s/swift/swift-doc_1.4.3-4_all.deb
+Size: 234444
+SHA256: 33d8fa448a293d6edfa158ac3dbcb5a279ac55393b8f79ba82bbf3bb1b1fb4a5
+SHA1: 9ccd05b883a6a24bccc676fc0e0eea808a737c17
+MD5sum: a03d4795ee851108c8fe6c6d28ee74cd
+Description: The swift documentation
+ Sphinx documentation for Swift.
+
+Package: swift-object
+Source: swift
+Version: 1.4.3-4
+Architecture: all
+Maintainer: Michael Barton <michael.barton@rackspace.com>
+Installed-Size: 108
+Depends: python-swift (= 1.4.3-4), rsync, python (>= 2.6)
+Homepage: http://launchpad.net/swift
+Priority: optional
+Section: net
+Filename: pool/main/s/swift/swift-object_1.4.3-4_all.deb
+Size: 12454
+SHA256: 74319bb2131addbb126daf4f9f4f3a2b02b7e474423e271316726fe412eee0e9
+SHA1: cf2cba9f2c7f976d08ea17a80c6e76a964363fd9
+MD5sum: a3e4ef6e64c792a372e6ba9c0ace3dbc
+Description: The swift object server
+ The swift object server.
+
+Package: swift-proxy
+Source: swift
+Version: 1.4.3-4
+Architecture: all
+Maintainer: Michael Barton <michael.barton@rackspace.com>
+Installed-Size: 80
+Depends: python-swift (= 1.4.3-4), python (>= 2.6)
+Homepage: http://launchpad.net/swift
+Priority: optional
+Section: net
+Filename: pool/main/s/swift/swift-proxy_1.4.3-4_all.deb
+Size: 12292
+SHA256: 2a584002a0d22853773fda596c876bf3e3104cd4d2135c9ec72e7ef21b70f162
+SHA1: c3a9f9b8bc5f45c525689ef030cfeb7f024184ce
+MD5sum: 599c7b6ea412283463e7be037b695fee
+Description: The swift proxy server
+ The swift proxy server.
+

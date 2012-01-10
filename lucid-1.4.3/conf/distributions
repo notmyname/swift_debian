@@ -1,0 +1,8 @@
+Origin: Swift
+Label: Swift
+Suite: stable
+Codename: lucid
+Version: 5.0
+Architectures: i386 amd64 source
+Components: main
+Description: Swift packages for Lucid

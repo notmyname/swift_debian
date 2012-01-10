@@ -1,0 +1,51 @@
+<html>
+    <body>
+        <p>Swift Lucid:</p>
+        <p>There is a debian package repository for Lucid at http://crashsite.github.com/swift_debian/lucid/ so you can easily install Swift on Lucid by:</p>
+        <ul>
+            <li><p>Create /etc/apt/sources.list.d/swift.list:<br />
+                <br />
+                <code>deb http://crashsite.github.com/swift_debian/lucid lucid
+                main</code></p>
+            </li>
+            <li><p>Then:<br />
+                <br />
+                <code>sudo apt-get update</code><br />
+                <code>sudo apt-get install ...</code></p>
+            </li>
+        </ul>
+        <p>The following packages are provided:<p>
+        <ul>
+            <li><b>python-greenlet</b><br />
+                Needed by Eventlet.</li>
+            <li><b>python-eventlet</b><br />
+                Needed by Swift.</li>
+            <li><b>python-webob</b><br />
+                Needed by Swift.</li>
+            <li><b>python-swift</b><br />
+                The actual Swift code, needed by all other Swift packages.</li>
+            <li><b>swift</b><br />
+                General Swift tools, such as st and swift-ring-builder.</li>
+            <li><b>swift-proxy</b><br />
+                The Swift Proxy frontend service.</li>
+            <li><b>swift-account</b><br />
+                The Swift Account backend service.</li>
+            <li><b>swift-container</b><br />
+                The Swift Container backend service.</li>
+            <li><b>swift-object</b><br />
+                The Swift Object backend service.</li>
+            <li><b>swift-doc</b><br />
+                The Sphinx-generated documentation for Swift.</li>
+        </ul>
+        <p>There are also older package repositories if you'd like to reference a specific release's collection of packages that will only change for security patches.</p>
+        <ul>
+            <li>deb http://crashsite.github.com/swift_debian/lucid lucid main</li>
+            <li>deb http://crashsite.github.com/swift_debian/lucid-1.4.5 lucid main</li>
+            <li>deb http://crashsite.github.com/swift_debian/lucid-1.4.4 lucid main</li>
+            <li>deb http://crashsite.github.com/swift_debian/lucid-1.4.3 lucid main</li>
+            <li>deb http://crashsite.github.com/swift_debian/lucid-1.4.2 lucid main</li>
+            <li>deb http://crashsite.github.com/swift_debian/lucid-1.4.1 lucid main</li>
+            <li>deb http://crashsite.github.com/swift_debian/lucid-1.4.0 lucid main</li>
+        </ul>
+    </body>
+</html>

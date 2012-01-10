@@ -1,0 +1,39 @@
+Origin: Swift
+Label: Swift
+Suite: stable
+Codename: lucid
+Version: 5.0
+Date: Tue, 10 Jan 2012 19:46:09 UTC
+Architectures: i386 amd64
+Components: main
+Description: Swift packages for Lucid
+MD5Sum:
+ bf9ff455c2cbe319b77983962a0b3067 6292 main/binary-i386/Packages
+ 0026fd7699d96146074ebad1a7590e70 2284 main/binary-i386/Packages.gz
+ fe6eb3fdc3a94d858d6f68d5907ee1d3 129 main/binary-i386/Release
+ 8cde0f34cf16552f28280d726f787801 11040 main/binary-amd64/Packages
+ ff1fd489fcce8cad6422ad5a47a3e712 3311 main/binary-amd64/Packages.gz
+ 2c4b8743fb3d120b22f0dac95d96eadd 130 main/binary-amd64/Release
+ f5adce45f0f99c5fc1f027ed160a0307 4822 main/source/Sources
+ 755e72da244c03b82fb2e210a1426c4e 1886 main/source/Sources.gz
+ 8e520eca8cbc883c35df1be0277e43b2 131 main/source/Release
+SHA1:
+ 23cc6189945947e3ad737af46fe16e65d12d3217 6292 main/binary-i386/Packages
+ 426417d2f8c4f5ff39a9ba36a222c6e9d7d1429e 2284 main/binary-i386/Packages.gz
+ 2e9d99c2c1d999d963b99baa08ee7e4779211615 129 main/binary-i386/Release
+ 11f2cdbb2873c3ac6de2f9f5472ccfb3a7f3b185 11040 main/binary-amd64/Packages
+ 9b1a4dc48a1b8e2967e3dca22cf537e51e01110a 3311 main/binary-amd64/Packages.gz
+ 4aed9b6b40d410c7f293166ed95fc0014293e8ba 130 main/binary-amd64/Release
+ c503bae75d8d96cf20884e4c2cf807800f9a1ff1 4822 main/source/Sources
+ 10096793078a8546028826ed6cd047b2e3c8da91 1886 main/source/Sources.gz
+ 3df2fc3d982981b51994e29b2bb32698d71690f4 131 main/source/Release
+SHA256:
+ d74be2f9c16148c30c967dc31ed43a517d565f7dde77cba4d2a1105ac5add70c 6292 main/binary-i386/Packages
+ 4cf1a55c908aa0a40b27742f19c54dc901c6d18a7c1538f2539635b64e0cccb4 2284 main/binary-i386/Packages.gz
+ fa4f6b9d3aa46f1b7236287388c1d1b2fdc5b1185981b185d63667dbbd2f3ad9 129 main/binary-i386/Release
+ 116616abf2589c45a2a1221ff1cd3ba6c04415b86d058f44b43fa77a6b89f090 11040 main/binary-amd64/Packages
+ 37be6392abdd1f0be87294f25179ffbff15968dcb017ab58ccf430efcb5e231e 3311 main/binary-amd64/Packages.gz
+ 50961445d9f0a749accfd99262fb1fff64936a03c7ac5d957a2383c65c21aaf5 130 main/binary-amd64/Release
+ efcc59399fec7f956cebd70e434c05f9e6a5874a4352d3b8d58bae41875bb757 4822 main/source/Sources
+ 18a389f22996f267716ae0d1c3848a491802f0269bbaef69d98b5b215910d061 1886 main/source/Sources.gz
+ 94ca48480b579277b393d766e5aab71256ca57d474010d45bdaba7b6ece915be 131 main/source/Release
