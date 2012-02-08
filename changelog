@@ -1,3 +1,29 @@
+swift (1.4.6-1) lucid; urgency=low
+
+  * TempURL and FormPost middleware added
+
+  * Added memcache.conf option
+
+  * Dropped eval-based json parser fallback
+
+  * Properly lose all groups when dropping privileges
+
+  * Fix permissions when creating files
+
+  * Fixed bug regarding negative Content-Length in requests
+
+  * Consistent formatting on Last-Modified response header
+
+  * Added timeout option to swift-recon
+
+  * Allow arguments to be passed to nosetest
+
+  * Removed tools/rfc.sh
+
+  * Other minor bug fixes
+
+ -- John Dickinson <me@not.mn>  Wed, 08 Feb 2012 22:04:20 +0000
+
 swift (1.4.5-4) lucid; urgency=low
 
   * Fixed packaging to reduce size of the repo
