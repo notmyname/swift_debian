@@ -2,7 +2,7 @@ Format: 1.0
 Source: swift
 Binary: python-swift, swift, swift-proxy, swift-object, swift-container, swift-account, swift-doc
 Architecture: all
-Version: 1.4.5-4
+Version: 1.4.6-1
 Maintainer: Michael Barton <michael.barton@rackspace.com>
 Uploaders: Monty Taylor <mordred@inaugust.com>, Greg Holt <gholt@rackspace.com>, Jay Payne <letterj@racklabs.com>
 Homepage: http://launchpad.net/swift
@@ -11,9 +11,9 @@ Vcs-Browser: http://bazaar.launchpad.net/~swift-core/debian/sid/swift/trunk/file
 Vcs-Bzr: http://bazaar.launchpad.net/~swift-core/debian/sid/swift/trunk
 Build-Depends: debhelper (>= 7.0.50~), python-all, python-support (>= 0.90), python-openssl, python-setuptools, python-webob (>= 0.9.7.1~hg20100111-1~racklabs1), python-simplejson, python-xattr, python-netifaces, python-greenlet (>= 0.3.1), python-eventlet (>= 0.9.8), python-nose, python-pastedeploy, python-sphinx (>= 1.0)
 Checksums-Sha1: 
- 3b4ed0784757fee7fbaed4fd7ba33062d380fac2 409484 swift_1.4.5-4.tar.gz
+ fa613902ff479e9a2329fe7f8f9cd52669b5cb5a 426490 swift_1.4.6-1.tar.gz
 Checksums-Sha256: 
- d062fd96933f0f60772590b65dcddd988bfea00fc241d3d34ff6433af1a2b9a5 409484 swift_1.4.5-4.tar.gz
+ ae6752b148a1e5d9910ef23de299c7420adcbc5f43debca2bcc1048532eed329 426490 swift_1.4.6-1.tar.gz
 Files: 
- a72cce3e2877963f651503e5152b72da 409484 swift_1.4.5-4.tar.gz
+ dbb7db04d767ba85e2222e8b30b07027 426490 swift_1.4.6-1.tar.gz
 Python-Version: >= 2.6
