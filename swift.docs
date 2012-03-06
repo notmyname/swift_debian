@@ -1,4 +1,3 @@
-etc/stats.conf-sample
 etc/drive-audit.conf-sample
 etc/dispersion.conf-sample
 etc/object-expirer.conf-sample
