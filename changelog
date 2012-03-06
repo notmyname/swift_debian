@@ -1,3 +1,9 @@
+swift (1.4.7-2) lucid; urgency=low
+
+  * Repackaged with Swift CHANGELOG updated.
+
+ -- Gregory Holt <gholt@rackspace.com>  Tue, 06 Mar 2012 21:52:05 +0000
+
 swift (1.4.7-1) lucid; urgency=low
 
   * Improvements to account and container replication.
