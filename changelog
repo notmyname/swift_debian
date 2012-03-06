@@ -1,3 +1,27 @@
+swift (1.4.7-2) lucid; urgency=low
+
+  * Repackaged with Swift CHANGELOG updated.
+
+ -- Gregory Holt <gholt@rackspace.com>  Tue, 06 Mar 2012 21:52:05 +0000
+
+swift (1.4.7-1) lucid; urgency=low
+
+  * Improvements to account and container replication.
+
+  * Fix for account servers allowing .pending to exist before .db.
+
+  * Fixed possible key-guessing exploit in formpost.
+
+  * Fixed bug in ring builder when removing a large percentage of devices.
+
+  * New JSON output option for swift-dispersion-report.
+
+  * Removed old stats tools.
+
+  * Other bug fixes and documentation updates.
+
+ -- Gregory Holt <gholt@rackspace.com>  Tue, 06 Mar 2012 21:10:29 +0000
+
 swift (1.4.6-1) lucid; urgency=low
 
   * TempURL and FormPost middleware added
