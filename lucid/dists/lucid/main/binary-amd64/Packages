@@ -1,18 +1,18 @@
 Package: python-eventlet
-Version: 0.9.15-rax2
+Version: 0.9.16-rax2
 Architecture: amd64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 239
+Installed-Size: 240
 Depends: python (>= 2.5), python-support (>= 0.90.0), python-greenlet
 Provides: python2.6-eventlet
 Homepage: http://eventlet.net
 Priority: optional
 Section: python
-Filename: pool/main/p/python-eventlet/python-eventlet_0.9.15-rax2_amd64.deb
-Size: 113716
-SHA256: a6ea3a04c3eb8246379deec9d68fc4a0a43a90ea51f7231f6ca7ad714e91e51a
-SHA1: e52f35b0738d65270711922b2c5241f9ba22d2a2
-MD5sum: d12669d5f506f886d239abb9d9fb066d
+Filename: pool/main/p/python-eventlet/python-eventlet_0.9.16-rax2_amd64.deb
+Size: 114168
+SHA256: e26d7bf18fe882bb552f593092bd82e92673091d5e39739f427c37e95fde1223
+SHA1: 144cbb2a5c88902be1d2fb7a523b7b8a8a09e665
+MD5sum: b6a589fb995ac70dd45d740555cb0393
 Description: A concurrent networking library for Python
  Eventlet allows you to change how you run your code, not how you write it.
  .
