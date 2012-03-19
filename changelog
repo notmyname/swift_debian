@@ -1,3 +1,36 @@
+swift (1.4.8-1) lucid; urgency=low
+
+    * Added optional max_containers_per_account restriction
+
+    * Added alternate metadata header removal method
+
+    * Added optional name_check middleware filter
+
+    * Added support for venv-based test runs with tox
+
+    * StaticWeb behavior change with X-Web-Mode: true and
+      non-StaticWeb-enabled containers (immediately 404s instead of passing
+      the request on down the WSGI pipeline).
+
+    * Fixed typo in swift-dispersion-report JSON output.
+
+    * Swift-Recon-related fix to create temporary files on the same disk as
+      their final destinations.
+
+    * Updated return codes in swift3 middleware
+
+    * Fixed swift3 middleware to allow Content-Range header in response
+
+    * Updated swift.common.client and swift CLI tool with auth 2.0 changes
+
+    * Swift CLI tool now supports common openstack auth args
+
+    * Body of HTTP responses now included in error messages of swift CLI tool
+
+    * Refactored some ring building functions for clarity and simplicity
+
+ -- John Dickinson <me@not.mn>  Mon, 19 Mar 2012 21:41:11 +0000
+
 swift (1.4.7-3) lucid; urgency=low
 
   * Internal release based on commit 7443f08f69bfc53e8d7691895f2e14d13119ddde
