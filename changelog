@@ -1,3 +1,9 @@
+swift (1.4.9-rax4-1) lucid; urgency=low
+
+    * Remix of 1.4.9-rax3-1 (which had just been an early packaging test).
+
+ -- Gregory Holt <gholt@lucid.localdomain>  Thu, 26 Apr 2012 19:30:46 +0000
+
 swift (1.4.9-rax3-1) lucid; urgency=low
 
     * One last db_preallocation spot updated to be toggleable (replicators).
