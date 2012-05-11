@@ -1,3 +1,16 @@
+swift (1.4.9-rax4-3) lucid; urgency=low
+
+  * adding earlier patch to wsgi.py
+
+ -- David Goetz <david.goetz@rackspace.com>  Thu, 10 May 2012 15:25:00 -0700
+
+swift (1.4.9-rax4-2) lucid; urgency=low
+
+  * Patching wsgi.py make_pre_authed_env from swift commit
+    a1910461a01760eadc86ea3ff64af9b67f8032d6
+
+ -- David Goetz <david.goetz@rackspace.com>  Thu, 10 May 2012 13:51:35 -0700
+
 swift (1.4.9-rax4-1) lucid; urgency=low
 
     * Remix of 1.4.9-rax3-1 (which had just been an early packaging test).
