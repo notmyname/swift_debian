@@ -1,3 +1,9 @@
+swift (1.5.0-2) lucid; urgency=low
+
+  * Fixed bugs in make_pre_authed_request and make_pre_auth
+
+ -- John Dickinson <me@not.mn>  Thu, 31 May 2012 19:01:47 +0000
+
 swift (1.5.0-1) lucid; urgency=low
 
   Note: This changelog entry includes information from the 1.4.9 series
