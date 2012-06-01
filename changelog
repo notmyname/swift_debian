@@ -1,3 +1,11 @@
+swift (1.5.0-3) lucid; urgency=low
+
+  * Bugfixes in proxy-logging, make_preauthed_*, and recon based on QA findings
+
+  * Bugfix in object server to fix issue where clients could be starved under concurrency
+
+ -- John Dickinson <me@not.mn>  Fri, 01 Jun 2012 23:37:38 +0000
+
 swift (1.5.0-2) lucid; urgency=low
 
   * Fixed bugs in make_pre_authed_request and make_pre_auth
