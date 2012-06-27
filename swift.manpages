@@ -4,3 +4,6 @@ doc/manpages/swift-dispersion-report.1
 doc/manpages/swift-get-nodes.1
 doc/manpages/swift-recon.1
 doc/manpages/swift-ring-builder.1
+doc/manpages/swift-orphans.1
+doc/manpages/swift-object-expirer.1
+doc/manpages/object-expirer.conf.5
