@@ -1,3 +1,10 @@
+swift (1.6.0-2) lucid; urgency=low
+
+  * Packaging OpenStack Swift 1.6.0 release; this time with swiftclient
+    dependency.
+
+ -- Gregory Holt <gholt@rackspace.com>  Fri, 27 Jul 2012 18:45:24 +0000
+
 swift (1.6.0-1) lucid; urgency=low
 
   * Packaging OpenStack Swift 1.6.0 release.
