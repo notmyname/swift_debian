@@ -1,4 +1,4 @@
-swift (1.6.0-3) lucid; urgency=low
+swift (1.6.0-4) lucid; urgency=low
 
   * Packaging OpenStack Swift 1.6.0 release.
 
