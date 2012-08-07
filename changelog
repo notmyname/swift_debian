@@ -1,3 +1,9 @@
+swift (1.6.0-6) lucid; urgency=low
+
+  * Packaging OpenStack Swift 1.6.0 release.
+
+ -- Gregory Holt <gholt@rackspace.com>  Mon, 30 Jul 2012 02:22:25 +0000
+
 swift (1.5.0-rax1-1) lucid; urgency=low
 
   * Fix bug with proxy logging and no content-length/transfer-encoding.

@@ -39,6 +39,7 @@ Depends: ${python:Depends}, ${misc:Depends},
  python-netifaces,
  python-greenlet (>= 0.3.1),
  python-eventlet (>= 0.9.8),
+ python-python-swiftclient,
 Provides: ${python:Provides}
 Description: A distributed virtual object store (python libraries)
  Swift is a distributed virtual object store.
