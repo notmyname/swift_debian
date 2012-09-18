@@ -1,3 +1,10 @@
+swift (1.7.1~rax1) lucid; urgency=low
+
+  * Packaging a prerelease of 1.7.1, see the branch at:
+    https://github.com/rackspace/swift/tree/pkg1.7.1tilderax1
+
+ -- Gregory Holt <gholt@rackspace.com>  Tue, 18 Sep 2012 15:33:12 +0000
+
 swift (1.7.0-1) lucid; urgency=low
 
   * Packaging OpenStack Swift 1.7.0 release (commit
