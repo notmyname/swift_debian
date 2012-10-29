@@ -1,3 +1,17 @@
+swift (1.7.5~rax2) lucid; urgency=low
+
+  * Packaging a prerelease of 1.7.5 at commit
+    1f232e19cfb1c662c891d73d4251c6a262d74921
+
+ -- Gregory Holt <gholt@rackspace.com>  Mon, 29 Oct 2012 20:41:46 +0000
+
+swift (1.7.1~rax2) lucid; urgency=low
+
+  * Packaging a prerelease of 1.7.1, see the branch at:
+    https://github.com/rackspace/swift/tree/pkg1.7.1tilderax2
+
+ -- Gregory Holt <gholt@rackspace.com>  Tue, 18 Sep 2012 19:17:14 +0000
+
 swift (1.7.1~rax1) lucid; urgency=low
 
   * Packaging a prerelease of 1.7.1, see the branch at:
