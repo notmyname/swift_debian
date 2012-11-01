@@ -1,3 +1,9 @@
+swift (1.7.5~rax3) lucid; urgency=low
+
+  * Bug fixes only.
+
+ -- Gregory Holt <gholt@rackspace.com>  Thu, 01 Nov 2012 19:10:19 +0000
+
 swift (1.7.5~rax2) lucid; urgency=low
 
   * Packaging a prerelease of 1.7.5 at commit
