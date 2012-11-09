@@ -1,3 +1,9 @@
+swift (1.7.6~rax2) lucid; urgency=low
+
+  * Packaging at commit 2194897e3749df2652bc6c9609a769d874350380
+
+ -- Gregory Holt <gholt@rackspace.com>  Fri, 09 Nov 2012 00:13:14 +0000
+
 swift (1.7.6~rax1) lucid; urgency=low
 
   * Packaging at commit 0ab0c813c0e8388b813d1fa624247b54cf42ec73
