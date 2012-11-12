@@ -1,3 +1,10 @@
+swift (1.7.6~rax4) lucid; urgency=low
+
+  * Packaging the gerrit/milestone-proposed branch at commit
+    4927185fa8f3397a55cb4fb90f3b9cd10c23ab5d
+
+ -- Gregory Holt <gholt@rackspace.com>  Mon, 12 Nov 2012 15:44:04 +0000
+
 swift (1.7.6~rax3) lucid; urgency=low
 
   * Packaging at commit 34ca0f097c0607c1dd6610e3fad6eebaa11fe11c
